@@ -17,6 +17,7 @@
 		866902FB21B66B240031AA1C /* FYAdvertisementManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 866902F421B66B240031AA1C /* FYAdvertisementManager.m */; };
 		866902FD21B66B240031AA1C /* Launch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 866902F821B66B240031AA1C /* Launch.xib */; };
 		8669030021B66CD80031AA1C /* FYADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 866902FE21B66CD80031AA1C /* FYADViewController.m */; };
+		8669030221B677BF0031AA1C /* FYAD.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8669030121B677BE0031AA1C /* FYAD.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		866902FA21B66B240031AA1C /* FYAdvertisementManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYAdvertisementManager.h; sourceTree = "<group>"; };
 		866902FE21B66CD80031AA1C /* FYADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYADViewController.m; sourceTree = "<group>"; };
 		866902FF21B66CD80031AA1C /* FYADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYADViewController.h; sourceTree = "<group>"; };
+		8669030121B677BE0031AA1C /* FYAD.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = FYAD.podspec; path = FYAD/FYAD.podspec; sourceTree = SOURCE_ROOT; };
 		E68073D280E1D66C94B599B7 /* Pods-FYAD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYAD.release.xcconfig"; path = "Pods/Target Support Files/Pods-FYAD/Pods-FYAD.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,9 +92,10 @@
 		866902F321B66B240031AA1C /* ScreenAdvertisement */ = {
 			isa = PBXGroup;
 			children = (
+				8669030121B677BE0031AA1C /* FYAD.podspec */,
+				866902FA21B66B240031AA1C /* FYAdvertisementManager.h */,
 				866902F421B66B240031AA1C /* FYAdvertisementManager.m */,
 				866902F521B66B240031AA1C /* ViewControllers */,
-				866902FA21B66B240031AA1C /* FYAdvertisementManager.h */,
 			);
 			path = ScreenAdvertisement;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8669030221B677BF0031AA1C /* FYAD.podspec in Resources */,
 				866902EA21B66A2E0031AA1C /* LaunchScreen.storyboard in Resources */,
 				866902E721B66A2E0031AA1C /* Assets.xcassets in Resources */,
 				866902FD21B66B240031AA1C /* Launch.xib in Resources */,
@@ -413,7 +417,10 @@
 				DEVELOPMENT_TEAM = SR52437D77;
 				INFOPLIST_FILE = FYAD/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = FelixID.FYAD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -429,7 +436,10 @@
 				DEVELOPMENT_TEAM = SR52437D77;
 				INFOPLIST_FILE = FYAD/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = FelixID.FYAD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
