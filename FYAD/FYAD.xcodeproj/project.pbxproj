@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7080921CF48B6BA746CA29C4 /* Pods_FYAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F05916AD903DF3A013B00B /* Pods_FYAD.framework */; };
 		866902DF21B66A2D0031AA1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 866902DE21B66A2D0031AA1C /* AppDelegate.m */; };
 		866902E221B66A2D0031AA1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 866902E121B66A2D0031AA1C /* ViewController.m */; };
 		866902E521B66A2D0031AA1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866902E321B66A2D0031AA1C /* Main.storyboard */; };
 		866902E721B66A2E0031AA1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 866902E621B66A2E0031AA1C /* Assets.xcassets */; };
 		866902EA21B66A2E0031AA1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866902E821B66A2E0031AA1C /* LaunchScreen.storyboard */; };
 		866902ED21B66A2E0031AA1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 866902EC21B66A2E0031AA1C /* main.m */; };
+		866902FB21B66B240031AA1C /* FYAdvertisementManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 866902F421B66B240031AA1C /* FYAdvertisementManager.m */; };
+		866902FD21B66B240031AA1C /* Launch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 866902F821B66B240031AA1C /* Launch.xib */; };
+		8669030021B66CD80031AA1C /* FYADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 866902FE21B66CD80031AA1C /* FYADViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34F05916AD903DF3A013B00B /* Pods_FYAD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYAD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72532969531E7BD92B225C4F /* Pods-FYAD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYAD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FYAD/Pods-FYAD.debug.xcconfig"; sourceTree = "<group>"; };
 		866902DA21B66A2D0031AA1C /* FYAD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYAD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		866902DD21B66A2D0031AA1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		866902DE21B66A2D0031AA1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +32,12 @@
 		866902E921B66A2E0031AA1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		866902EB21B66A2E0031AA1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		866902EC21B66A2E0031AA1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		866902F421B66B240031AA1C /* FYAdvertisementManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYAdvertisementManager.m; sourceTree = "<group>"; };
+		866902F821B66B240031AA1C /* Launch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Launch.xib; sourceTree = "<group>"; };
+		866902FA21B66B240031AA1C /* FYAdvertisementManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYAdvertisementManager.h; sourceTree = "<group>"; };
+		866902FE21B66CD80031AA1C /* FYADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYADViewController.m; sourceTree = "<group>"; };
+		866902FF21B66CD80031AA1C /* FYADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYADViewController.h; sourceTree = "<group>"; };
+		E68073D280E1D66C94B599B7 /* Pods-FYAD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYAD.release.xcconfig"; path = "Pods/Target Support Files/Pods-FYAD/Pods-FYAD.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7080921CF48B6BA746CA29C4 /* Pods_FYAD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +57,8 @@
 			children = (
 				866902DC21B66A2D0031AA1C /* FYAD */,
 				866902DB21B66A2D0031AA1C /* Products */,
+				D10BA89AE7B9F22F90F120D1 /* Pods */,
+				A57FA347AB4674C685AAE90F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +73,7 @@
 		866902DC21B66A2D0031AA1C /* FYAD */ = {
 			isa = PBXGroup;
 			children = (
+				866902F321B66B240031AA1C /* ScreenAdvertisement */,
 				866902DD21B66A2D0031AA1C /* AppDelegate.h */,
 				866902DE21B66A2D0031AA1C /* AppDelegate.m */,
 				866902E021B66A2D0031AA1C /* ViewController.h */,
@@ -71,6 +87,51 @@
 			path = FYAD;
 			sourceTree = "<group>";
 		};
+		866902F321B66B240031AA1C /* ScreenAdvertisement */ = {
+			isa = PBXGroup;
+			children = (
+				866902F421B66B240031AA1C /* FYAdvertisementManager.m */,
+				866902F521B66B240031AA1C /* ViewControllers */,
+				866902FA21B66B240031AA1C /* FYAdvertisementManager.h */,
+			);
+			path = ScreenAdvertisement;
+			sourceTree = "<group>";
+		};
+		866902F521B66B240031AA1C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				866902FF21B66CD80031AA1C /* FYADViewController.h */,
+				866902FE21B66CD80031AA1C /* FYADViewController.m */,
+				866902F721B66B240031AA1C /* Views */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		866902F721B66B240031AA1C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				866902F821B66B240031AA1C /* Launch.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A57FA347AB4674C685AAE90F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34F05916AD903DF3A013B00B /* Pods_FYAD.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D10BA89AE7B9F22F90F120D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72532969531E7BD92B225C4F /* Pods-FYAD.debug.xcconfig */,
+				E68073D280E1D66C94B599B7 /* Pods-FYAD.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 866902F021B66A2E0031AA1C /* Build configuration list for PBXNativeTarget "FYAD" */;
 			buildPhases = (
+				3917558BCCD50618151D2B98 /* [CP] Check Pods Manifest.lock */,
 				866902D621B66A2D0031AA1C /* Sources */,
 				866902D721B66A2D0031AA1C /* Frameworks */,
 				866902D821B66A2D0031AA1C /* Resources */,
+				E94E23307453410357828627 /* [CP] Embed Pods Frameworks */,
+				AA8C11F95316B79461F604FD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,18 +194,77 @@
 			files = (
 				866902EA21B66A2E0031AA1C /* LaunchScreen.storyboard in Resources */,
 				866902E721B66A2E0031AA1C /* Assets.xcassets in Resources */,
+				866902FD21B66B240031AA1C /* Launch.xib in Resources */,
 				866902E521B66A2D0031AA1C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3917558BCCD50618151D2B98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FYAD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA8C11F95316B79461F604FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FYAD/Pods-FYAD-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E94E23307453410357828627 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FYAD/Pods-FYAD-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FYAD/Pods-FYAD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		866902D621B66A2D0031AA1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				866902FB21B66B240031AA1C /* FYAdvertisementManager.m in Sources */,
 				866902E221B66A2D0031AA1C /* ViewController.m in Sources */,
+				8669030021B66CD80031AA1C /* FYADViewController.m in Sources */,
 				866902ED21B66A2E0031AA1C /* main.m in Sources */,
 				866902DF21B66A2D0031AA1C /* AppDelegate.m in Sources */,
 			);
@@ -283,15 +406,14 @@
 		};
 		866902F121B66A2E0031AA1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72532969531E7BD92B225C4F /* Pods-FYAD.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SR52437D77;
 				INFOPLIST_FILE = FYAD/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FelixID.FYAD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,15 +422,14 @@
 		};
 		866902F221B66A2E0031AA1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E68073D280E1D66C94B599B7 /* Pods-FYAD.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SR52437D77;
 				INFOPLIST_FILE = FYAD/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FelixID.FYAD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

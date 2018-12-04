@@ -1,0 +1,6 @@
+framework module Pods_FYAD {
+  umbrella header "Pods-FYAD-umbrella.h"
+
+  export *
+  module * { export * }
+}
