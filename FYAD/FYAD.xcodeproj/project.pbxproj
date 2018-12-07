@@ -14,7 +14,7 @@
 		866902E721B66A2E0031AA1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 866902E621B66A2E0031AA1C /* Assets.xcassets */; };
 		866902EA21B66A2E0031AA1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866902E821B66A2E0031AA1C /* LaunchScreen.storyboard */; };
 		866902ED21B66A2E0031AA1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 866902EC21B66A2E0031AA1C /* main.m */; };
-		8669030221B677BF0031AA1C /* FYAD.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8669030121B677BE0031AA1C /* FYAD.podspec */; };
+		8669030221B677BF0031AA1C /* FYAD-.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8669030121B677BE0031AA1C /* FYAD-.podspec */; };
 		86E47B3C21BA5FEF007B8E75 /* FYAdvertisementManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E47B3521BA5FEF007B8E75 /* FYAdvertisementManager.m */; };
 		86E47B3D21BA5FEF007B8E75 /* FYADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E47B3721BA5FEF007B8E75 /* FYADViewController.m */; };
 		86E47B3E21BA5FEF007B8E75 /* Launch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86E47B3A21BA5FEF007B8E75 /* Launch.xib */; };
@@ -32,7 +32,7 @@
 		866902E921B66A2E0031AA1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		866902EB21B66A2E0031AA1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		866902EC21B66A2E0031AA1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8669030121B677BE0031AA1C /* FYAD.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FYAD.podspec; sourceTree = SOURCE_ROOT; };
+		8669030121B677BE0031AA1C /* FYAD-.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FYAD-.podspec"; sourceTree = SOURCE_ROOT; };
 		86E47B3521BA5FEF007B8E75 /* FYAdvertisementManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYAdvertisementManager.m; sourceTree = "<group>"; };
 		86E47B3721BA5FEF007B8E75 /* FYADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYADViewController.m; sourceTree = "<group>"; };
 		86E47B3821BA5FEF007B8E75 /* FYADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYADViewController.h; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				86E47B3421BA5FEF007B8E75 /* ScreenAdvertisement */,
-				8669030121B677BE0031AA1C /* FYAD.podspec */,
+				8669030121B677BE0031AA1C /* FYAD-.podspec */,
 				866902DD21B66A2D0031AA1C /* AppDelegate.h */,
 				866902DE21B66A2D0031AA1C /* AppDelegate.m */,
 				866902E021B66A2D0031AA1C /* ViewController.h */,
@@ -194,7 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8669030221B677BF0031AA1C /* FYAD.podspec in Resources */,
+				8669030221B677BF0031AA1C /* FYAD-.podspec in Resources */,
 				866902EA21B66A2E0031AA1C /* LaunchScreen.storyboard in Resources */,
 				866902E721B66A2E0031AA1C /* Assets.xcassets in Resources */,
 				866902E521B66A2D0031AA1C /* Main.storyboard in Resources */,
