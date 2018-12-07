@@ -32,7 +32,7 @@
 		866902E921B66A2E0031AA1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		866902EB21B66A2E0031AA1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		866902EC21B66A2E0031AA1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8669030121B677BE0031AA1C /* FYAD.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = FYAD.podspec; path = FYAD/FYAD.podspec; sourceTree = SOURCE_ROOT; };
+		8669030121B677BE0031AA1C /* FYAD.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FYAD.podspec; sourceTree = SOURCE_ROOT; };
 		86E47B2A21BA5E43007B8E75 /* FYAdvertisementManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYAdvertisementManager.m; sourceTree = "<group>"; };
 		86E47B2C21BA5E43007B8E75 /* FYADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYADViewController.m; sourceTree = "<group>"; };
 		86E47B2D21BA5E43007B8E75 /* FYADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYADViewController.h; sourceTree = "<group>"; };
