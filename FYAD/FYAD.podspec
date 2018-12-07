@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FYAD"
-  s.version      = "1.0"
+  s.version      = "1.0.1"
   s.summary      = "Advertiment Framework For iOS......"
 
   # This description is used to generate tags and improve search results.
@@ -54,7 +54,7 @@ Pod::Spec.new do |s|
   s.author             = { "Felix Yin" => "yinxianjin66@163.com" }
   # Or just: s.author    = "Felix Yin"
   # s.authors            = { "Felix Yin" => "yinxianjin66@163.com" }
-  # s.social_media_url   = "https://github.com/FelixYin66"
+  s.social_media_url   = "https://github.com/FelixYin66"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "FYAD/ScreenAdvertisement", "**/*.{h,m}"
+  s.source_files  = "FYAD/ScreenAdvertisement/**/*.{h,m}"
 #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -115,8 +115,8 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  s.framework  = "UIKit"
-  #s.frameworks = "UIKit", "SDWebImage"
+  s.framework  = "UIKit","Foundation"
+  #s.frameworks = "UIKit"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
@@ -131,7 +131,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "AFNetworking","=> 2.6.2"
+ s.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => '' }
+  s.dependency "AFNetworking","~>2.6.2"
   s.dependency "SDWebImage","~>3.7"
 
 end
