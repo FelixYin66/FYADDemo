@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FYAD-"
-  s.version      = "1.1"
+  s.version      = "1.0"
   s.summary      = "Advertiment Framework For iOS......"
 
   # This description is used to generate tags and improve search results.
