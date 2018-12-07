@@ -32,12 +32,12 @@
 		866902E921B66A2E0031AA1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		866902EB21B66A2E0031AA1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		866902EC21B66A2E0031AA1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		866902F421B66B240031AA1C /* FYAdvertisementManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYAdvertisementManager.m; sourceTree = "<group>"; };
-		866902F821B66B240031AA1C /* Launch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Launch.xib; sourceTree = "<group>"; };
-		866902FA21B66B240031AA1C /* FYAdvertisementManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYAdvertisementManager.h; sourceTree = "<group>"; };
-		866902FE21B66CD80031AA1C /* FYADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYADViewController.m; sourceTree = "<group>"; };
-		866902FF21B66CD80031AA1C /* FYADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYADViewController.h; sourceTree = "<group>"; };
-		8669030121B677BE0031AA1C /* FYAD.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = FYAD.podspec; path = FYAD/FYAD.podspec; sourceTree = SOURCE_ROOT; };
+		866902F421B66B240031AA1C /* FYAdvertisementManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FYAdvertisementManager.m; path = ../../ScreenAdvertisement/FYAdvertisementManager.m; sourceTree = "<group>"; };
+		866902F821B66B240031AA1C /* Launch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Launch.xib; path = ../../../../ScreenAdvertisement/ViewControllers/Views/Launch.xib; sourceTree = "<group>"; };
+		866902FA21B66B240031AA1C /* FYAdvertisementManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FYAdvertisementManager.h; path = ../../ScreenAdvertisement/FYAdvertisementManager.h; sourceTree = "<group>"; };
+		866902FE21B66CD80031AA1C /* FYADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FYADViewController.m; path = ../../../ScreenAdvertisement/ViewControllers/FYADViewController.m; sourceTree = "<group>"; };
+		866902FF21B66CD80031AA1C /* FYADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FYADViewController.h; path = ../../../ScreenAdvertisement/ViewControllers/FYADViewController.h; sourceTree = "<group>"; };
+		8669030121B677BE0031AA1C /* FYAD.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FYAD.podspec; sourceTree = SOURCE_ROOT; };
 		D669A9D9CA7C056B3A176504 /* Pods_FYAD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYAD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E68073D280E1D66C94B599B7 /* Pods-FYAD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYAD.release.xcconfig"; path = "Pods/Target Support Files/Pods-FYAD/Pods-FYAD.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
