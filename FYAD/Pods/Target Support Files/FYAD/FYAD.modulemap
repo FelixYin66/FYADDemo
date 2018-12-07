@@ -1,0 +1,6 @@
+framework module FYAD {
+  umbrella header "FYAD-umbrella.h"
+
+  export *
+  module * { export * }
+}
